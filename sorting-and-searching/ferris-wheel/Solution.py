@@ -23,8 +23,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    # Base Case Test
-    # n, max_wt = 4, 10
-    # child_wts = [7,  2,  3, 9]
-    # print(solve(n, max_wt, child_wts))
