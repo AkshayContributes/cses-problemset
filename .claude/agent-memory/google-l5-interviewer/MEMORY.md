@@ -1,0 +1,2 @@
+- [Python idiom nits](feedback_python_idioms.md) — flag redundant list comps over `range` and parity-stride off-by-ones
+- [Candidate profile](project_candidate_profile.md) — strengths, recurring weaknesses, per-problem signal log
