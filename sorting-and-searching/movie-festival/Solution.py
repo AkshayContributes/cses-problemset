@@ -1,12 +1,11 @@
 def solve(movies: list[list[int]]) -> int:
-    count = 0
     movies = sorted(movies, key=lambda x: x[1])
     count = 0
     previous_end = 0
     for movie in movies:
         if movie[0] >= previous_end:
             count += 1
-            previous_end = max(movie[1], previous_end)
+            previous_end = movie[1]
     return count
 
 
